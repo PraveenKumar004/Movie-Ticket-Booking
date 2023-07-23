@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #092595;background-image: linear-gradient(to right, #092595, rgb(0, 119, 255));">
+    <h1>Book My Tickets</h1><br><br>
+    <form action="#" class="fo">
+        <label class="lab"><b>Select Movie: </b></label>
+        <select id="option" required>
+            <option>Select</option>
+            <option value="Sardar">Sardar-Rs.150</option>
+            <option value="Varisu">Varisu-Rs.180</option>
+            <option value="Vikram">Vikram-Rs.220</option>
+            <option value="Vaathi">Vaathi-Rs.160</option>
+        </select>
+       <br><br> 
+        <input type="number" class="in1" placeholder="NUMBER OF TICKETS" required id="no" min="1" max="100">
+        <input type="submit" class="in2" id="submit" value="Next" onclick="addTags()">
+        <div id="newid">
+            <div class="lab"><b>Seat No:</b></div>
+        </div><br>
+        <div id="Name">
+            <h style="display: none;">Enter Details</h>
+        </div>
+        <div id="z" class="z"><p></p></div>
+        <button>Book Now</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

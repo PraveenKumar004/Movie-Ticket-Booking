@@ -1,0 +1,90 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0345d3;
+    background-color:rgb(255, 255, 255);
+    height: 110px;
+    text-align: center;
+    padding-top: 40px;
+}
+form{
+    background-color:rgb(255, 255, 255);
+    margin: 1px 30%;
+    margin-bottom: 2%;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.lab{
+    color: #0345d3;
+    font-size: 17px;
+    padding-right: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in1{
+    width: 35%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #e4e4e4;
+}
+.in2{
+    width: 15%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:#0345d3;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+button{
+    width: auto;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    background-color:#0345d3;
+    border-radius: 19px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.yt{
+    width: auto;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color:#0345d3;
+    border-radius: 19px;
+    color: rgb(255, 255, 255);
+}
+.in{
+    width: auto;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 7px 16px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    background-color:#fff;
+    border-radius: 19px;
+}
+.z{
+    width: auto;
+    padding: 8px 10px;
+    color:#0345d3;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
